@@ -1,27 +1,79 @@
-# NgPokemonTrainer
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, repo_name, twitter_handle, email
+-->
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-## Build
+<!-- PROJECT LOGO -->
+<!-- <br />
+<p align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Assignment - Javascript Pokemon Trainer
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Running end-to-end tests
+This project was created as an assignment.
+<br />
+A single page app to catch pokemon.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Setup
+To use the code you will need: 
+- Visual Studio Code
 
-## Further help
+<!-- GETTING STARTED -->
+## Getting Started
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo and run local
+```sh
+git clone https://gitlab.com/ThymenH/assignment_javascript_angular_pokemon_trainer.git
+```
+2. Or open the app in Heroku
+```sh
+https://thawing-dusk-30511.herokuapp.com/
+```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+### The Login Page
+Enter the name you want to login with.
+1. Press the 'Login' button to login and go to the pokemon catalogue page.
+
+### The Pokemon Catalogue Page
+Choose the pokemon you want to capture.
+1. Press the 'Capture Me!' button to capture the pokemon.
+2. Press the 'Pokeball' button to release the pokemon.
+3. Press the 'Trainer' button in the top right corner to go to your trainer page.
+
+### The Trainer Page
+Your captured pokemon will be displayed.
+1. Press the 'Pokeball' button to release the pokemon.
+2. Press the 'Pokemon' button to go to the pokemon catalogue page.
