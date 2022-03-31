@@ -1,0 +1,11 @@
+<div class="flex justify-center items-center">
+    <li *ngIf="pokemon" class="mb-3 shadow bg-gray-200 rounded relative border-solid border-8 border-blue-600 w-96">
+        <app-captured-button [pokemonName]="pokemon.name"></app-captured-button>
+        <section class="p-4">
+            <img [src]="pokemon.avatar" alt="No image">
+        </section>
+        <section class="p-4">
+            <span class="text-xl">{{pokemon.name}}</span>
+        </section>
+    </li>
+</div>

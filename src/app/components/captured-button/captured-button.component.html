@@ -1,0 +1,13 @@
+<aside class="absolute top-4 right-4">
+    <button
+    (click)="onCaptureClick()"
+    class="border border-slate-300 rounded flex justify-center items-center p-2">
+        <ng-container *ngIf="!loading; else spinner">
+            <img *ngIf="isCaptured" style="height: 50px; width: 50px;" src="gaming.ico" alt="icon">
+            <span *ngIf="!isCaptured">Capture Me!</span>
+        </ng-container>
+        <ng-template #spinner>
+            <span class="material-icons animate-spin">refresh</span>
+        </ng-template>
+    </button>
+</aside>

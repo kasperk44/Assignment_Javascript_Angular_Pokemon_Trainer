@@ -1,0 +1,13 @@
+<nav class="bg-red-600 flex justify-between items-center p-4 sticky top-0 w-full z-50 border-solid border-b-8 border-black border-opacity-30">
+  <span class="font-bold">Gotta Catch 'Em All!</span>
+  <ng-container *ngIf="user !== undefined">
+    <ul class="flex">
+      <li class="px-4">
+        <a routerLink="/pokemons">Pokemon</a>
+      </li>
+      <li class="px-4">
+        <a routerLink="/trainer">Trainer</a>
+      </li>
+    </ul>
+  </ng-container>
+</nav>
